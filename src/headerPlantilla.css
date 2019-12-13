@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+
+/* Header */
+.headerPlantilla{
+  background-image: url('/plantilla_img/back-menu.png');
+  background-size: 100% 100%;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.headerPlantilla img{
+  width: 100%;
+  max-width: 100px;
+}
+.headerPlantilla h2{
+  display: inline-block;
+  color: white;
+  margin: 0px;
+  font-size: 20px;
+  line-height: 50px;
+}
+/* Generales */
+.backgroundAWeepec{
+  background: #23A1CA;
+} 
+
+/* Botones */
+.buttonA{
+  font-family: 'Poppins', helvetica, arial;
+  font-size: 20px;
+  border: none;
+  background: none;
+  background: #23A1CA;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.buttonA:active{
+  background: #23A1CA;
+}
+
+/* Input */
+.input-field input[type=text]:focus, .input-field input[type=text]{
+  border-bottom: 1px solid #23A1CA!important;
+  box-shadow: 0 1px 0 0 #23A1CA;
+}
+.input-field .active{
+  color: #23A1CA!important;
+}
+
+/* Select */
+.selectPlantilla{
+  border: none;
+  border-bottom: 2px #23A1CA solid; 
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+.selectPlantilla:focus{
+  outline: none!important;
+}
+
+
