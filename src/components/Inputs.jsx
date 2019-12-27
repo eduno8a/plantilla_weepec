@@ -1,47 +1,26 @@
 import React from 'react';
 import '../headerPlantilla.css';
 
-class Header extends React.Component{
+class Inputs extends React.Component{
   
   
 
   render(){
     return(
       <div>
-        {/* Header */}
-        <div className="row headerPlantilla">
-          <div className="container">
-            <div className="col s3">
-              <img src="plantilla_img/logo_weepec.png"/>
-            </div>
-            <div className="col s9">
-                <h2>Estas son tus mascotas </h2>
-            </div>
-          </div>
-        </div>
-        {/* Header */}
-
-        {/* Button */}
-        {/* <div className="row">
-          <div className="col s12 center">
-              <button className="buttonA"> Cerrar sesión</button>
-          </div>
-        </div>
-        {/* Button */}
-        {/* <br></br> */}
         {/* Input */}
-        {/* <div className="row">
+        <div className="row">
           <div className="col s12">
             <div className="input-field col s6">
               <input id="last_name" type="text" className="validate"/>
               <label>Last Name</label>
             </div>
           </div>
-        </div> */}
+        </div>
         {/* Input */}
 
         {/* Select */}
-        {/* <div className="row">
+        <div className="row">
           <div className="col s12">
             <div className="col s6">
             <label>Selected</label>
@@ -55,7 +34,7 @@ class Header extends React.Component{
             </div>
           </div>
         </div>
-        Select */}
+        {/* Select */}
 
       </div>
     )
@@ -63,4 +42,4 @@ class Header extends React.Component{
 }
 
 
-export default Header;
+export default Inputs;
