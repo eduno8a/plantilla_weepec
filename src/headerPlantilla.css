@@ -99,10 +99,24 @@
 }
 .fotoMascota{
   padding: 10px;
+  transition: all .5s;
 }
-.fotoMascota:hover{
+
+.mascotaFotoSelect, .fotoMascota:hover {
+  transform: scale(1.1);
+}
+.mascotaFotoSelect, .fotoMascota:hover{
   border-radius: 10px;
 }
+.mascotaFotoSelect h2, .fotoMascota:hover h2 {
+  color: #53575A!important;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.mascotaFotoSelect span, .fotoMascota:hover span{
+  border-color: #53575A!important;
+}
+
 .fotoMascota span{
   width: 100px;
   height: 100px;

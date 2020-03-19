@@ -146,7 +146,8 @@ class FormWeepec extends React.Component{
           <div class="col s10 offset-s1 fotoContainer scrollspy">
             <ul className=" center">
             {mascotas.map((mascota, index) => (<li key={mascota.nombre}>
-              <div className="fotoMascota" onClick={()=>{ this.setState({ mascotaActive: index })}}>
+              <div className="fotoMascota" onClick={()=>{ this.setState({ mascotaActive: index })}} 
+                className={mascotaActive === index ? ' fotoMascota mascotaFotoSelect ' : 'fotoMascota'}>
                 <span style={{background: 'url(/plantilla_img/foto-perfil.png)'}}></span>
                 <h2>{mascota.nombre}</h2>
               </div>
