@@ -142,22 +142,23 @@ class FormWeepec extends React.Component{
     let {mascotaActive} = this.state;
     return(
       <div className="row mascotasContainer">
-        <div className="col s12 m4 fotoContainer">
-          <ul className="col s10 offset-s1 center">
+        <div className="col s12 m4">
+          <div class="col s10 offset-s1 fotoContainer scrollspy">
+            <ul className=" center">
             {mascotas.map((mascota, index) => (<li key={mascota.nombre}>
               <div className="fotoMascota" onClick={()=>{ this.setState({ mascotaActive: index })}}>
                 <span style={{background: 'url(/plantilla_img/foto-perfil.png)'}}></span>
                 <h2>{mascota.nombre}</h2>
               </div>
             </li>)) }
-
-            
-          </ul>
+          </ul>  
+          </div>
+          
         </div>
 
         <div className="col s12 m8">
-          <button className="buttonA waves-effect waves-light btn modal-trigger" onClick={()=>{ this.estimacionSemanas()}}>Si</button>
-          <form className="col s10 offset-s1 contDir" onSubmit={this.handleSubmit}>
+
+          <form className="col s12 contDir" onSubmit={this.handleSubmit}>
           <div className="row">
             <div className="col s12 exDireccion">
             <h1>{mascotas[mascotaActive].nombre}</h1>

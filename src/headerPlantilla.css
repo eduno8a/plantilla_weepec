@@ -90,7 +90,7 @@
   margin-top:10px;
 }
 .fotoContainer{
-  max-height: 425px;
+  /*max-height: 425px;*/
   overflow: auto;
   border-right: 1px solid #424242;
 }
